@@ -1,0 +1,159 @@
+::-webkit-scrollbar-track {
+	border: 1px solid black;
+	background-color: #E8DBAF;
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #2A2A26;	
+}
+
+* {
+	margin: 0;
+	padding: 0; 
+}
+
+body {
+	background: url(imagenes/fondo1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*background: linear-gradient(to right, #77104c, #4BB5D4, #77104c);*/
+	  color:  #000; 
+	  font-family: 'Roboto Condensed', sans-serif;
+	  height: 100%;
+	  background-attachment: fixed;
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin: 60px auto;
+	display: grid; 
+	grid-gap: 5vh;
+	grid-auto-rows:rem;
+	text-align: justify;
+	grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+	grid-auto-rows: repeat(3, auto);
+	text-align: justify;
+}
+
+.contenedor .header, 
+.contenedor .contenido, 
+.contenedor .footer {
+	padding: 20px;
+	border-radius: 4px;
+}
+/*-----------------HEADER-------------*/
+.contenedor .header {
+	background: #12203E;
+	color:  #fff;
+	grid-column: span 4;
+	box-shadow:#0FF6E8 0px 0px 20px 0px;
+	height: 60%;
+	font-size: 2vh;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	/*display: flex;*/
+	grid-row: span 2;
+	position: relative;
+	 transition: background-color 5s ease-in-out;
+	 transition: color 3s;
+
+
+}
+.contenedor .header:hover{
+	background: #EEC5FA;
+	transition: background all 0.5s ease-out;
+	transition: color 3s;
+	color: #12203E;
+}
+
+/*-----------------CONTENIDO-------------*/
+.contenedor .contenido {
+	margin-top: 2%;
+	grid-column: span 4;
+	position: relative;
+	background: #E6E6E6;
+	overflow: hidden;
+	box-shadow:#0FF6E8 0px 0px 20px 0px;
+	line-height: 150%;
+}
+
+hr{
+	width: 80%;
+	margin-left: 10%;
+}
+.contenedor .contenido h1{
+	padding-left: 10%;
+	color: #621573;
+}
+.contenedor .contenido h3{
+	padding-left: 10%;
+	padding-right: 10%;
+	color: #621573;
+}
+.contenedor .contenido p{
+	padding-left: 10%;
+		padding-right: 10%;
+}
+.contenedor .contenido img{
+	width: 100%;
+	align-items: center;
+		        transform:scale(1);
+}
+.contenedor .contenido img:hover{
+			        transform:scale(1.05);
+
+}
+.derecho{
+	padding-right: 10%;
+	line-height: 110%;
+}
+.contenedor .contenido ul{
+	padding-left: 10%;
+	color: #00126D;
+	display: inline-block;
+	justify-items: center;
+}
+
+.contenedor .contenido div img .nop{
+	width: 100%;
+	align-items: center;
+
+}
+/*----------------------------INTENTO DE GLASSMORPHISMO XDDDDDDDDDDDDDDD------------------------
+.contenedor .contenido:before{
+	background: url(imagenes/feria2.jpg);
+	filter: blur(10px);
+	content: '';
+	width: span 4;
+	height: span 4;
+	top: -20px;
+	left: -20px;
+	bottom: -20px;
+	right: -20px;
+	position: absolute;
+	background-repeat: no-repeat;
+		background-position: center;
+	background-size: cover;
+		  background-attachment: fixed;
+}*/
+
+/*-----------------FOOTER-------------*/
+.contenedor .footer{
+	grid-column: span 4;
+	color: #000963;
+	margin-top: 0px;
+	bottom: -100px;
+	position: relative;
+	border-radius: 4px;
+	background: #E6E6E6;
+
+
+}

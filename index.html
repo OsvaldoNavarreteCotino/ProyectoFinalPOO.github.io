@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Indicación para que la página se adapte a la escala del navegador-->
+			<meta http-equiv="X-UA-Compatible" content="ie-edge">
+    		<title>Proyecto Final - Osvaldo NC</title>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="style.css">
+			<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+			<link rel="icon" type="image/png" href="https://img.icons8.com/office/100/000000/origami.png">
+	</head>
+<body>
+	<div class="contenedor">
+		<header class="header">
+			<h1>Proyecto Final - Videojuego</h1>
+			<br>
+			<h4>Un proyecto realizado por Osvaldo Navarrete</h4><br>
+
+		</header>
+		<main class="contenido">
+			<br><br>
+			<h1 class="izquierdo">Objetivo general</h1><br><hr><br>
+			<p>
+			El objetivo principal de este proyecto es conocer el objetivo del diseño y desarrollo orientado a
+			objetos a través de la elaboración de un juego 2d con la herramienta Greenfoot.
+			 <br>También el llevar a cabo lo aprendido durante el curso de la materia Desarrollo y Programación Orientada a Objetos, así pues, el almuno apenderá a manejar las diferentes tecnologías que el diseño de un videojuego implica junto con la programación orientada a objetos. <br>
+			 También se centrará en el uso de plataformas como Github para tener un control público del proyecto. 
+			<br><br><br>
+			<img src="imagenes/1.jpg">
+			<br><br>
+			<br><br>			</p>
+			<h1 class="derecho" align="right">Motor gráfico</h1><br><hr><br><p>
+			Se optó por utilizar un motor gráfico diferente al de GreenFoot, la desición fue tomada debido al gran interés que tuve desde hace mucho por aprender a manejar el entorno y las herramientas que ofrece, además de permitirme acceder a funcionalidades más allá del 2D y que de alguna forma fueron limitantes en Greenfoot.<br>
+			<br><br><br>
+			<img src="imagenes/Official_unity_logo.png">
+			<br><br><br><br><br><br><br>
+			<h1 class="izquiero">Descripción y reglas</h1><br><hr><br>
+			<p>
+				El primer videojuego que realicé fue una copia del juego creado en 1976 por Nolan Bushnell, Steve Wozniak, Steve Bristow y Steve Jobs para la consola Atari 2600, titulado BreakOut. <br>
+				Logré hacer que bloques al azar aparecieran, que al romper todos iniciara otro grupo de bloques, que el objeto <i>pelota</i> tuviera gravedad y pudiera destruir bloques al impactar con ellos, así como <i>reaparecer</i> cada vez que tocara el límite inferior, lo que penalizaba al usuario con volver a romper todos los bloques.<br>
+				En la siguiente captura se pueden ver los scripts implementados y simplemente utilicé dos imagenes para los sprites de la pelota y la barra de colisión a la cual disfracé de ovni, por otro lado, los bloques fueron hechos cn cubos 2D que pinté de colores. <br> 
+			<br><br><br>
+			<img src="imagenes/2.png">
+			<br><br><br>
+			<p>
+				Sin embargo, después de terminar el juego no me sentí totalmente satisfecho, por lo que comencé con un nuevo proyecto, el cual estaría basado en la famosa saga de juegos de rol <i>Calabozos y dragones</i>, donde el jugador tendrá que hacer una serie de pasos para poder completar el juego.<br>
+				Este nuevo proyecto fue igualmente realizado en Unity pero enfocado en gráficos 3D.<br>
+				Las reglas son sencillas, en él, el jugador contará con un minuto debido a las dimensiones del laberinto que cree, en el cual deberá encontrar una espada, al encontrarla, deberá buscar la puerta más cercana y de esta manera ganará el juego. 
+				El jugador podrá anotar su puntuación más alta en caso de ganarla y si pierde, lo redireccionará hasta el menú principal de inicio.<br><br><br>
+				<img src="imagenes/3.png">
+				<br><br><br><br><br><br>
+			<h1 class="izquiero">Desarrollo</h1><br><hr><br>
+			<p>
+				Para comenzar, utilicé el entorno de desarrollo Unity, en el cual gracias a tutoriales de YouTube, aprendí a manejar formas geométricas en 3D, darles texturas de colores planos y aplicarles físicas como colisiones, gravedad, luces, movimientos, masa y atributos para las figuras como el no poder traspasarlas ni romperlas. <br> 
+			<br><br>
+			<img src="imagenes/4.png">
+			<br><br><br>
+				<p>
+				El proceso de creación de figuras, atributos y métodos desde el entorno de desarrollo me permitiría más adelante agregarlas a formas más complicadas como espadas, puertas, huesos y demás contenido que pude ir agregando. 
+					<br><br><br>
+				<img src="imagenes/5.png">
+				<br><br><br>
+				</p>
+			<p> 
+			Al finalizar el proceso de creado, pude contruír el proyecto y ejecutarlo en mi computador sin ningún problema.
+			<br><br><br>
+			<img src="imagenes/6.png">
+			<br><br>
+			<br><br>			
+			</p>
+			<p> 
+			Al comenzar un nuevo proyecto, lo que hice fue importar figuras prefabricadas que descargué de internet, así como paquetes para texturas e iluminación, con los que le di la forma al laberinto y agregué detalles como pasto, rocas, el cielo, las nubes, etc.
+			<br><br><br>
+			<img src="imagenes/7.png">
+			<br><br>
+			<br><br>			
+			<p>
+			También pude organizar el contenido de creación en carpetas que a su vez tenían subcarpetas, las principales fueron: Texturas, Modelos, Scripts, Audio, Paquetes externos y Prefabs. <br>
+			Ya en este punto, pude migrar los prefabs o formas prefabricadas dentro de mi terreno y de esta forma pude organizarlos. 
+			<br><br><br>
+			<img src="imagenes/8.png">
+			<br><br>
+			<br><br>		
+			</p>
+			<p>
+			De esta manera logré jugar con algunas formas y dimensiones de las mismas para ir armando poco a poco mi laberinto, en él pude manejar a escala las diferentes medidas de cada prefab en el escenario.
+			<br><br><br>
+			<img src="imagenes/9.png">
+			<br><br>
+			<br><br>		
+			</p>
+			<p>
+			Comencé a crear la lógica del juego con puertas que permitían la aparición aleatoria de nuestro personaje en cualquier punto del mapa, asegurando que no se vuelva rutinario el juego y así sea más difícil orientarse.
+			<br><br><br>
+			<img src="imagenes/10.png">
+			<br><br>
+			<br><br>		
+			</p>
+			<p>
+			Lo siguiente que hice fue crear el laberinto con una serie de objetos prefabricados en los que ya se veía la organización del sitio y las puertas. Al principio las coloqué por colocar como en la imagen, pero posterior a eso las acomodé de forma que coincidieran todas y no se notara algún descuadre.
+			<br><br><br>
+			<img src="imagenes/11.png">
+			<br><br>
+			<br><br>		
+			</p>
+			<p>
+			Para seguir con el escenario, lo que hice fue crear montañas gracias a herramientas que contiene el motor, así pude agregar formas infinitas, considero que esta fue la parte más divertida del proceso, ya que incluso agregué objetos extra como huesos por el terreno, craneos e incluso un craneo gigante en la montaña para agregar ámbientación de mismticismo dentro de la estética del juego. <br>
+			Por otro lado, también comencé a agregar mensajes en forma de texto gracias a la herramienta Canvas, con la que pude por ejemplo, agregar el cronómetro en la parte superior, botones y demás.
+			<br><br><br>
+			<img src="imagenes/12.png">
+			<br><br>
+			<br><br>		
+			</p>
+						<p>
+			Aquí es otro ejemplo de materiales y cosas agregadas, se puede ver incluso las texturas del suelo y de los objetos. 
+			<br><br><br>
+			<img src="imagenes/13.png">
+			<br><br>
+			<br><br>		
+			</p>
+			<p>
+			También se muestra la creación del relievede las montañas y los detalles en ellas, así como un laberinto mejor organizado.
+			<br><br><br>
+			<img src="imagenes/17.png">
+			<br><br>
+			<img src="imagenes/18.png">
+			<br><br>
+			<br><br>		
+			</p>
+			<p>
+			Por último, respecto al lado del Canvas, logré que se mostrarán los mensajes tanto para el menú principal, como para las ventanas de puntuación y botones. 
+			<br><br><br>
+			<img src="imagenes/25.png">
+			<br><br>
+			<img src="imagenes/16.png">
+			<br><br>
+			<img src="imagenes/19.png">
+			<br><br>
+			<img src="imagenes/20.png">
+			<br><br>
+			<img src="imagenes/22.png">
+			<br><br>
+			<br><br>		
+			</p>
+			<p>
+			Aquí un ejemplo de los elementos extra colocados en el mapa, la mayoría de ellos es generado automáticamente en alguna ubicación del laberinto al azar. La lógica se puede ver en la segunda imagen, en la cual mediante coordenadas o puntos <i>A1, A2, B1 y B2</i> en los scripts se pueden generar puntos de aparición de los elementos al azar y que uno no aparezca en el lugar del otro. <br>
+			Haciendo que los relojes aparezcan los que el jugador indique en lugares al azar y que el pedestal de la espada aparezca solamente una durante la partida en un lugar específico generado automáticamente.
+			<br><br><br>
+			<img src="imagenes/30.png">
+			<br><br>
+			<img src="imagenes/31.png">
+			<br><br>
+			<br><br>		
+			<p>
+			De esta menera es como está hecho el juego, los scripts y paquetes se mostrarán en el video al final de la página. 
+			<br><br><br>
+			<img src="imagenes/21.png">
+			<br><br>
+			<img src="imagenes/23.png">
+			<br><br>
+			<br><br>		
+			</p>
+			</p>
+			<h1 class="derecho" align="right">Diagramas UML</h1><br><hr><br>
+			<p>
+			Diagrama de flujo de pantallas 
+			<br><br>
+			<img src="imagenes/D1.png">
+			<br><br><br>
+			</p>
+			<p>
+			Diagrama de clases
+			<br><br>
+			<img src="imagenes/D2.png">
+			<br><br><br>
+			</p>
+		
+			<br><br><br><br>
+			<h1 class="izquierdo">Enlaces</h1><br><hr><br><br>
+			<a href="https://github.com/OsvaldoNavarreteCotino/ProyectoFinalVideojuegoPOO" target="blank"><img src="imagenes/git.png"></a><br><br><br>
+			<a href="https://youtu.be/0B_4r3cDyxM" target="blank"><img src="imagenes/yt.png"></a>
+						<br><br><br><br>
+		<h1 class="derecho" align="center">Tecnologías</h1><br><hr><br>
+		<a><img src="imagenes/tec.png"></a>
+		<br><br>
+		<h1 class="derecho" align="center">Datos adicionales</h1><br><hr><br><br><br>
+		<div><img class="nop" src="imagenes/datos.png"></div>
+		<br><br><br><br> 
+		<h3 align="justify">Agradecimientos especiales a GameDevTraun, programador y desarrollador de videojuegos, con el cual aprendí a utilizar el entorno de Unity antes del iniciar mi proyecto y con el cuál lo desarrollé gracias a su serie de tutoriales títulado <i>Escapa del laberinto.</i></h3><br><br><br>
+		</p>
+		<a href="https://gamedevtraum.com/es/" target="blank"><img src="imagenes/gamedev.png"></a>
+		</main>
+		<footer class="footer">
+			<a href="https://www.youtube.com/watch?v=G8dsvclf3Tk" style="text-decoration:none;"><h3 align="center" href="">Gracias por visitar</h3><br><p align="center">(: Da click :)</p></a>
+		</footer>
+		
+	</div>
+</body>
+</html>
